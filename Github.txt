@@ -1,0 +1,30 @@
+First time push Git Cmnds
+git init
+git status
+git add . 
+git status
+git commit -m "First Commit"
+git status
+git log --oneline (checking the logs ) 
+git remote add origin url
+git push -u origin master
+
+First time pull Git Cmnds
+git clone url 
+
+For push code 
+git status
+git add . 
+git status
+git commit -m "comments"
+git branch -M main
+git push origin main
+
+For pull code
+git pull origin master 
+if not pull showing this msg (fatal: couldn't find remote ref master) the code then you need to follow some step 
+git add . 
+git commit -m "update commit in git write same commit here while pushing the code"
+git pull origin main 
+
+
